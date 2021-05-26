@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 5rem 3rem ;
+    margin-top: 4rem;
     width: 100%;
     height: 100%;
     border: 5px solid #333;
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 
     div{
         font-family: Arial, Helvetica, sans-serif;
-        padding: 2rem;
+        padding: 1rem;
         height: 100%;
     }
 `;
