@@ -7,9 +7,9 @@ export const Wrapper = styled.div`
     margin-top: 4rem;
     width: 100%;
     height: 100%;
-    border: 5px solid #333;
+    border: 2px solid silver;
     border-radius: 20px;
-    box-shadow: 2px 3px 4px 5px rgba(0,0,0, 0.6);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0, 0.4);
 
     button{
         border-radius: 0 0 20px 20px;
