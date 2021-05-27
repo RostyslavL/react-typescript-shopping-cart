@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useQuery } from 'react-query';
 // Components
 import Item from './item/Item';
+import Cart from './Cart/Cart';
 import Drawer from '@material-ui/core/Drawer';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Grid from '@material-ui/core/Grid';
@@ -19,7 +20,6 @@ export type CartItemType = {
   title: string;
   amount: number;
 }
-
 
 const getProducts = async (): Promise<CartItemType[]> =>
   await(
@@ -47,7 +47,11 @@ const App = () => {
   return (
     <Wrapper>
       <Drawer anchor='right' open={cartOpen} onClose={()=> setCartOpen(false)}>
-        Cart Here  
+        <Cart 
+          cartItems={cartItems} 
+          addToCart={handleAddToCart} 
+          removeFromCart={hendleRemoveFromCart}
+        />  
       </Drawer>
       <StyledButton onClick={() => setCartOpen(true)}> 
       <Badge badgeContent={getTotalItems(cartItems)} color='error'>
