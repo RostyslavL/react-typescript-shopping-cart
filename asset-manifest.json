@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/react-typescript-shopping-cart/static/js/main.aaa2e664.chunk.js",
+    "main.js.map": "/react-typescript-shopping-cart/static/js/main.aaa2e664.chunk.js.map",
+    "runtime-main.js": "/react-typescript-shopping-cart/static/js/runtime-main.1adda23d.js",
+    "runtime-main.js.map": "/react-typescript-shopping-cart/static/js/runtime-main.1adda23d.js.map",
+    "static/js/2.ca4fc2a1.chunk.js": "/react-typescript-shopping-cart/static/js/2.ca4fc2a1.chunk.js",
+    "static/js/2.ca4fc2a1.chunk.js.map": "/react-typescript-shopping-cart/static/js/2.ca4fc2a1.chunk.js.map",
+    "index.html": "/react-typescript-shopping-cart/index.html",
+    "static/js/2.ca4fc2a1.chunk.js.LICENSE.txt": "/react-typescript-shopping-cart/static/js/2.ca4fc2a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1adda23d.js",
+    "static/js/2.ca4fc2a1.chunk.js",
+    "static/js/main.aaa2e664.chunk.js"
+  ]
+}
